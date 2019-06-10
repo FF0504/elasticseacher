@@ -35,7 +35,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("测试es RestFul APIs")
                 .description("Any questions please contact by FF")
-                .contact(new Contact("FF","","2993394628@qq.com"))
+                .contact(new Contact("FF","","288@qq.com"))
                 .version("1.0")
                 .build();
     }
