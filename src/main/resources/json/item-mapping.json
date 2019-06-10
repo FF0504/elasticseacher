@@ -1,0 +1,25 @@
+{
+  "item": {
+    "properties": {
+      "id": {
+        "type": "long"
+      },
+      "title": {
+        "type": "text",
+        "analyzer": "ik_smart_pinyin_version2"
+      }
+    },
+    "category": {
+      "type": "text"
+    },
+    "brand": {
+      "type": "text"
+    },
+    "price": {
+      "type": "double"
+    },
+    "createTime": {
+      "type": "date"
+    }
+  }
+}
